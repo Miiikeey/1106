@@ -1,0 +1,16 @@
+
+
+#class for student name, ID and address
+class student:
+    def __init__(self, name, id, address):
+        self.name = name
+        self.id = id
+        self.address = address
+
+#template for me
+mike = student("Mike Cabaluna", "000915704", "4305 7a ave SE")
+
+#print out the class
+print(mike.name)
+print(mike.id)
+print(mike.address)
